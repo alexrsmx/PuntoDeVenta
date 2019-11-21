@@ -1,0 +1,55 @@
+.AppLogo{
+    display: block;
+    margin: auto;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.activo) {
+    background-color: #111;
+  }
+  
+  .activo {
+    background-color: #4CAF50;
+  }
+
+  .NavBar {
+    width: 100%;
+    height: 60px;
+    background-color: #AED581;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .link-container {
+    width: 100px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
