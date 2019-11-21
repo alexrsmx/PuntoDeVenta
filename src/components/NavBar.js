@@ -1,28 +1,19 @@
-import React, { Component } from 'react';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
-import {withStyles} from '@material-ui/core/styles';
+import React from 'react';
+import {BrowserRouter} from 'react-router-dom';
 
 import Login from './Login';
+import Productos from './UI02_Productos';
 
-class NavBar extends Component{
-    render(){
-        return(
+import logo from '../media/logo.png';
+
+import '../styles/myStyle.css';
+
+export default function Navbar(){
+    return(
+        <BrowserRouter>
             <div>
-                <AppBar position="fixed">
-                    <Toolbar>
-                        <Typography variant="h6" component="h4" className={this.props.classes.grow}>
-                            Punto de venta
-                        </Typography>
-                        <Login/>
-                    </Toolbar>
-                </AppBar>
-            </div>
-        );
-    }
-}
 
-export default  withStyles({
-    grow: {flexGrow:1}
-})(NavBar);
+            </div>
+        </BrowserRouter>
+    )
+}

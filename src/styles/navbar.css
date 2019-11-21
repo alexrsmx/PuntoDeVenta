@@ -1,0 +1,21 @@
+.navbar{
+    margin-bottom: 20px;
+}
+
+.navbar ul{
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar li{
+    float: left;
+    font-size: 20px;
+}
+
+img{
+    display: block;
+    margin: auto;
+}

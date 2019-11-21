@@ -4,6 +4,8 @@ import firebase from '../initializers/firebase';
 import Button from '@material-ui/core/Button';
 import {Redirect} from 'react-router-dom';
 
+import NoLogin from './NoLogin';
+
 class Login extends Component{
     constructor(props){
         super(props);
@@ -21,7 +23,7 @@ class Login extends Component{
                     userLoggedIn: true
                 });
             }else{ //No hay inicio de sesión 
-
+                <NoLogin/>
             }
         })
     }
