@@ -47,6 +47,7 @@
     "react-with-firebase-auth": "^1.1.0",
     "reactfire": "^1.0.0",
     "style-loader": "^1.0.0",
+    "superagent": "^5.1.1",
     "tar": "^5.0.5",
     "underscore.string": "^3.3.5",
     "withstyles": "^1.0.3"
