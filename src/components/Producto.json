@@ -1,0 +1,29 @@
+{
+    "Producto": [
+        {
+            "id": 1,
+            "name": "Chapata",
+            "description": "Pan,carne",
+            "categoria": "alimentos" 
+            
+        },
+        {
+            "id": 2,
+            "name": "CocaCola",
+            "description": "Bebida",
+            "categoria": "bebidas"
+        },
+        {
+            "id": 3,
+            "name": "Baguette",
+            "description": "Bagette delicious",
+            "categoria": "alimentos"
+        },
+        {
+            "id": 4,
+            "name": "AguaHorchata",
+            "description": "Agua casera preparada con archata",
+            "categoria": "bebidas"
+        }
+    ]
+}
